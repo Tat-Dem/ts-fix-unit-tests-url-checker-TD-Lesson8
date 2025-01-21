@@ -26,6 +26,6 @@ describe('calculatePasswordStrenght',()=>{
     });
     it('should handle passwords with lenght exactly 8 and 12 characters',() => {
         expect(calculatePasswordStrength('Tatdem35')).toBe('Moderate');
-        expect(calculatePasswordStrength('Tatdem35!@ir')).toBe('Strong');
+        expect(calculatePasswordStrength('Tatdem36!@ir')).toBe('Strong');
     });
 });
