@@ -29,3 +29,5 @@ describe('calculatePasswordStrenght',()=>{
         expect(calculatePasswordStrength('Tatdem36!@ir')).toBe('Strong');
     });
 });
+
+
